@@ -68,6 +68,7 @@
     padding-top: 175px;
     padding-left: 38px;
     font-size: 40px;
+    color: azure;
   }
   
   h2 {
@@ -83,14 +84,24 @@
     /* background-color: #869b8c; */
   }
 
-  p {
-    padding-left: 45px;
-    margin-right: 50px;
-  }
+
   
-  #poster {
-    height: auto;
-    width: auto;
-  }
+ #poster {
+  height: 300px;
+  width: 220px;
+  padding-left: 25px;
+ }
   
+ #st-logo {
+  padding-right: 150px;
+  padding-left: 300px;
+  position: relative;
+ }
+
+ #images-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  flex-direction: row;
   
+ }
