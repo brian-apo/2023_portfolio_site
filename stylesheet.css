@@ -6,7 +6,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 1000px;
-  height: 2000px;
+  height: 750px;
 }
 
 #body {
@@ -69,11 +69,28 @@ h1 {
   padding-top: 175px;
   padding-left: 38px;
   font-size: 40px;
+  
 }
 
 h2 {
   padding-left: 50px;
+  color: rgb(255, 255, 255);
 }
 
+/* h2:hover {
+  padding-left: 50px;
+  background-color: rgb(177, 56, 229);
+  color: rgb(203, 196, 196);
+  transition-property: background-color color;
+  transition-duration: 1s;
+  transition-delay: .25s;
+  height: 500px;
+  width: 500px;
+}
+ */
 
+#photo {
+  padding-top: 150px;
+  height: 350px;
+}
 
